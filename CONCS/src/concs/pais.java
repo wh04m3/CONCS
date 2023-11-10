@@ -106,6 +106,11 @@ public class pais extends javax.swing.JFrame {
                 btn_agregarMouseExited(evt);
             }
         });
+        btn_agregar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_agregarActionPerformed(evt);
+            }
+        });
 
         btn_eliminar.setBackground(new java.awt.Color(23, 88, 144));
         btn_eliminar.setFont(new java.awt.Font("Century Gothic", 1, 14)); // NOI18N
@@ -229,6 +234,10 @@ public class pais extends javax.swing.JFrame {
     private void btn_eliminarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_eliminarMouseExited
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_eliminarMouseExited
+
+    private void btn_agregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_agregarActionPerformed
+        System.out.println("Agregar pais ");
+    }//GEN-LAST:event_btn_agregarActionPerformed
 
     /**
      * @param args the command line arguments
